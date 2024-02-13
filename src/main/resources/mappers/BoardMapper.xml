@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="board240206.board.BoardMapper">
+    <sql id="boardColumns">
+        board_id,
+        board_title,
+        board_cnt,
+        board_writer,
+        board_pwd,
+        category_id,
+        createdDate,
+        modifiedDate,
+        group_id,
+        board_del
+    </sql>
+</mapper>
